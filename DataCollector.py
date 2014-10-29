@@ -37,7 +37,7 @@ else:
     napEnd = 'na'
     
  
-'''                    '''
+'''                     '''
 ''' Nutrition Questions '''
 '''                     '''
 breakfast = raw_input(
