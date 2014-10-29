@@ -2,6 +2,7 @@
 Created on Oct 1, 2014
     
 @author: joshmcmenemy
+
 '''
 import os.path
 
@@ -35,8 +36,8 @@ else:
     napStart = 'na'
     napEnd = 'na'
     
-    
-''''                    '''
+ 
+'''                    '''
 ''' Nutrition Questions '''
 '''                     '''
 breakfast = raw_input(
