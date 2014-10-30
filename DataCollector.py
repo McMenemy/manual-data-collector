@@ -266,7 +266,7 @@ happy = int(raw_input(
 stress = int(raw_input(
 """Rate your general stress? (1=stress free, 10=very stressed) : """))
 productivity = int(raw_input(
-"""Rate your general stress? (1=stress free, 10=very stressed) : """))
+"""Rate your general productivity? (1=not at all productive, 10=very productive) : """))
 
 '''                     '''
 ''' Append daily data   '''
