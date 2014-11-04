@@ -27,24 +27,26 @@ class ManualInput:
 
 
 	def askQuestionScale10(self,prompt,id1):
-		response=input(prompt+'\n[Enter Response as a digit 1-10]')
+		
 		# Check response
 		while 1:
 			if (response.isdigit()):
+				response=input(prompt+'\n[Enter Response as a digit 1-10]:\n')
 				self.writeQuestionData(prompt, id1, repsonse)
 				break
 			else:
 				print "Please enter response as a digit 1-10"
 
 	def askQuestionYN(self,prompt,id1):
-		response1=raw_input(prompt+'\n[Enter Response as y (yes) or n (no)]')
+		
 		# Check response
 		while 1:
+			response1=raw_input(prompt+'\n[Enter Response as y (yes) or n (no)]:\n')
 			if (response1 == 'y' or response1 == 'n'):
 				self.writeQuestionData(prompt, id1, response1)
 				break
 			else:
-				print ""
+				print "Please enter a y or n:"
 
 
 	'''
