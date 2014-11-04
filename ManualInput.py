@@ -4,9 +4,12 @@ This class deals with getting manual data input from the user.
 '''
 import os.path
 class ManualInput:
-	outputFileName=""
-	def __init__(self):
-		outputFileName=""
+	outputPath=""
+	def __init__(self,outputPath):
+		self.outputPath=outputPath # Absolute output path/folder 
+		# Create directory at output path if doesn't exist already
+		if not os.path.exists(outputPath):
+			os.makedirs(outputPath)
 		
 		#TODO: adjf;
 		#self.outputFileName=outputFileName
@@ -55,7 +58,7 @@ class ManualInput:
 	prompt @id
 	''' 
 	def writeQuestionData(self,prompt,id1,response):
-		filename=''.join([id1,'.csv'])
+		filename=''.join([self.outputPath,id1,'.csv'])
 		# Check if file already exists, if not then write header
 		if not (os.path.isfile(filename)):
 			self.writeHeader(filename,id1,prompt)
