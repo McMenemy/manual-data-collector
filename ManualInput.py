@@ -13,17 +13,16 @@ class ManualInput:
 '''
 This method asks the user a question with the prompt and of the type specified. 
 The type specifier is a string: 
-'Scale10', 'yn' [yes/no], 'OpenResponse', Time, 'intResponse'
+'Scaleten', 'yn' [yes/no], 'OpenResponse', Time, 'intResponse'
 '''
 	def askQuestion(prompt,typeString):
-		if (typeString=='Scale10'):
-			askQuestionScale10(prompt)
+		if (typeString=='Scaleten'):
+			askQuestionScaleten(prompt)
 
-	def askQuestionScale10(prompt):
-		response=input(prompt+'\n[Enter Response as a digit 1-10]')
-		# Check response
+	def askQuestionScaleten(prompt):
+		response=input(prompt+'\n[Enter an integer 1-10]')
 		if (response.isdigit()):
-			#TODO Add methods 
+			write
 
 
 	'''
