@@ -20,11 +20,15 @@ The type specifier is a string:
 			askQuestionScale10(prompt)
 
 	def askQuestionScale10(prompt):
-		response=input(prompt+'\nEnter Response as a digit 1-10')
+		response=input(prompt+'\n[Enter Response as a digit 1-10]')
 		# Check response
 		if (response.isdigit()):
-			
+			#TODO Add methods 
 
+
+	'''
+	Get the CSV header, figure out if the questions has been asked before
+	'''
 
 
 
