@@ -34,7 +34,7 @@ Question id--unique id for each question
 			else:
 				print "Please enter response as a digit 1-10"
 
-	def askQuestionyn(prompt):
+	def askQuestionYN(prompt):
 		response=input(prompt+'\n[Enter Response as yes or no]')
 		# Check response
 		while 1
@@ -46,7 +46,8 @@ Question id--unique id for each question
 
 
 	'''
-	Write a [id].csv file. If exists, add row. 
+	Write a [id].csv file. One file per question. Change to Master Table later.
+	If exists, add row. 
 	prompt @id
 	''' 
 	def writeQuestionData(prompt,id1,response):
