@@ -1,6 +1,6 @@
 '''
 This class deals with getting manual data input from the user.
-@author Suyash Kumar (suyashkumar)
+@author Suyash Kumar (suyashkumar) and Josh McMenemy (mcmenemy)
 '''
 
 class ManualInput:
