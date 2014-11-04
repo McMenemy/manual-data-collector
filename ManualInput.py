@@ -17,7 +17,7 @@ class ManualInput:
 	The type specifier is a string: 
 	'Scale10', 'yn' [yes/no], 'OpenResponse', Time, 'intResponse'
 
-	Question id--unique id for each question
+	Question id1--unique id for each question
 	'''
 	def askQuestion(self,prompt,typeString, id1):
 		if (typeString=='Scale10'):
