@@ -9,7 +9,7 @@ class ManualInput:
 		#TODO: adjf;
 		self.outputFileName=outputFileName
 		#f=open(outputFileName,'a') # Open file with append specifier
-
+    
 '''
 This method asks the user a question with the prompt and of the type specified. 
 The type specifier is a string: 
